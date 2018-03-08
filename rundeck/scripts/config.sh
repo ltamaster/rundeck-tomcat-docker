@@ -15,7 +15,7 @@ END
 mkdir ~/.rd
 cat > ~/.rd/rd.conf <<END
 export RD_TOKEN=$API_KEY
-export RD_URL="http://localhost:8080/rundeckpro"
+export RD_URL="http://localhost:8080/rundeck"
 export RD_COLOR=0
 export RD_OPTS="-Dfile.encoding=utf-8"
 export RD_HTTP_TIMEOUT=300

@@ -38,7 +38,7 @@ RUN mkdir -p $RDECK_BASE/scripts
 COPY rundeck $RDECK_BASE
 COPY scripts $RDECK_BASE/scripts
 COPY data    $RDECK_BASE/data
-COPY data/rundeckpro.war $CATALINA_HOME/webapps
+COPY data/rundeck.war $CATALINA_HOME/webapps
 
 RUN chmod -R a+x $RDECK_BASE/scripts/*
 
