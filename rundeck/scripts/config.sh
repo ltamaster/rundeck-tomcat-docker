@@ -30,7 +30,7 @@ END
 
 # undeplpy rundeckpro and load log4j.properties
 cd $CATALINA_HOME/webapps
-unzip -d rundeckpro rundeckpro.war
+unzip -d rundeck rundeck.war
 
-cp $RDECK_BASE/etc/log4j.properties $CATALINA_HOME/webapps/rundeckpro/WEB-INF/classes/
+cp $RDECK_BASE/etc/log4j.properties $CATALINA_HOME/webapps/rundeck/WEB-INF/classes/
 
